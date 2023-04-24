@@ -1,0 +1,148 @@
+body {
+    font-family: sans-serif;
+    background-color: white;
+    height: 560px;
+}
+
+.container{
+    width: 940px;
+    height: 560px;
+    margin: 0 auto
+}
+
+.logo{
+    float: left;
+    padding: 2rem;
+}
+
+.texto_entrada {
+    float: left;
+    border-radius: 30px;
+    padding: 5%;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    margin-left: 5%;
+    margin-top: 25%;
+    width: 80%;
+    height: 90%;
+    color: darkblue;
+    border: none;
+    outline: none;
+    cursor: text;
+}
+
+::placeholder { color: darkblue;}
+
+.caja__1{
+    float: right;
+    margin-top: 15px;
+    width: 29%;
+    height: auto;
+    border-radius: 24px;
+    border-color: #2b62a5;
+    border-width: 2px;
+    background: #F3F5FC;
+    
+    
+}
+.caja__2{
+    float:left;
+    width: 65%;
+    height: auto;
+    border-radius: 24px;
+}
+
+.botones{
+    float:left;
+    width: 70%;
+    height: auto;
+    border-radius: 24px;
+    margin-top: 3%;
+}
+
+.notas{
+    font-size: 12px;
+    font-weight: bold;
+    color: darkblue;
+    margin-bottom: 4%;
+    margin-left: 10%;
+}
+
+#importante{
+    float: left;
+    width: 2%;
+    margin-right: 5px;    
+}
+#placeholder{
+    color: #0A3871;
+}
+#Muñeco{
+    margin-top: 45px;
+    width: 100%;
+    align-items: center;
+        
+}
+#texto_1{
+    margin-left: 3%;
+    margin-right: 3%;
+    color: #0A3871;
+    font-size: 120%;
+    font-weight: bolder;
+    text-align: center;
+    padding: 5%;
+}
+#textoDerecha{
+    float: left;
+    width: 90%;
+    height: 100%;
+    font-size: auto;
+    background-color: #F3F5FC;
+    color: #0A3871;
+    border: none;
+    outline: none;
+    text-align: center;
+    font-size: 12px;
+    margin-top: 5px;
+    margin-bottom: 10%;    
+    padding-top: 20%;
+}
+#boton-encriptar{
+    padding: 15px;
+    width: 250px;
+    height: 60%;
+    border-radius: 24px;
+    margin-left: 5%;
+    font-size: 16px;
+    color: #F3F5FC;
+    background-color: #0A3871;
+    border-color: #0A3871;
+    cursor: pointer;
+}
+#boton-desencriptar{
+    padding: 15px;
+    width: 250px;
+    height: 60%;
+    border-radius: 24px;
+    margin-left: 3%;
+    font-size: 16px;
+    color: #0A3871;
+    border-color: #0A3871;
+    cursor: pointer;
+}
+#bto_copia{
+    padding: 14px;
+    width: 70%;
+    height: 10%;
+    border-radius: 24px;
+    margin-top: 30%;
+    margin-left: 15%;
+    margin-bottom: 10%;
+    font-size: 16px;
+    color: #0A3871;
+    border-color: #0A3871;
+    display: none;
+    cursor: pointer;
+}
+
+
